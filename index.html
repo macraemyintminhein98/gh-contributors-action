@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Contributors Action</title>
+    <style>
+        body { font-family: sans-serif; margin: 2em; line-height: 1.6; }
+        h1 { color: #2c3e50; }
+        .cta { background-color: #28a745; color: white; padding: 0.8em 1.5em; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 1em; }
+        .features { margin-top: 2em; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5em; }
+        .feature-card { border: 1px solid #ddd; padding: 1.5em; border-radius: 8px; }
+        footer { margin-top: 3em; text-align: center; color: #7f8c8d; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GitHub Contributors Action</h1>
+        <p>Automate your README's 'Contributors' section and give credit where it's due.</p>
+        <a href="https://github.com/marketplace?type=actions" class="cta" target="_blank">Get Started on GitHub Marketplace</a>
+    </header>
+
+    <main>
+        <section class="features">
+            <div class="feature-card">
+                <h3>Effortless Acknowledgment</h3>
+                <p>Automatically lists all unique contributors to your repository.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Always Up-to-Date</h3>
+                <p>Runs on every push, ensuring your README is always current.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Visually Engaging</h3>
+                <p>Displays avatars and links to GitHub profiles for a personal touch.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Open-Source Friendly</h3>
+                <p>Perfect for open-source projects, teams, and developer portfolios.</p>
+            </div>
+        </section>
+
+        <section style="margin-top: 2em;">
+            <h2>How It Works</h2>
+            <ol>
+                <li>Add the action to your GitHub Workflow (<code>.github/workflows/main.yml</code>).</li>
+                <li>The action fetches contributors via the GitHub API.</li>
+                <li>It then updates a specific section in your <code>README.md</code>.</li>
+                <li>Commit and push – your contributors section is now automated!</li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 GitHub Contributors Action. Built with ❤️ for the open-source community.</p>
+    </footer>
+</body>
+</html>
